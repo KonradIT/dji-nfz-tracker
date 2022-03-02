@@ -1,0 +1,34 @@
+name: Get No Fly Zones from Ukrainian cities
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+jobs:
+  monitornfz:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo content
+        uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2.0.0
+        with:
+          python-version: "3.7"
+      - name: Install requirements
+        run: pip install requests
+      - name: Run script
+        run: python track.py
+      - name: Commit new changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add zones/*
+          git commit -m "Update NFZ files" -a
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main

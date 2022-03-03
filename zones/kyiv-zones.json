@@ -606,13 +606,13 @@
             "data_source": 2
         },
         {
-            "area_id": 30288183,
-            "name": "Zhytomyr Airport",
+            "area_id": 30288588,
+            "name": "Ozerne Air Base",
             "type": 10,
             "shape": 2,
-            "lat": 50.267772,
-            "lng": 28.74346,
-            "radius": 852,
+            "lat": 50.162203,
+            "lng": 28.738751,
+            "radius": 8198,
             "level": 1,
             "begin_at": 0,
             "end_at": 0,
@@ -626,11 +626,50 @@
                     "color": "#1088F2",
                     "height": 0,
                     "level": 1,
-                    "lat": 50.267772,
-                    "lng": 28.74346,
-                    "radius": 852,
-                    "polygon_points": null,
-                    "shape": 0
+                    "lat": 50.158894233675426,
+                    "lng": 28.738315945397307,
+                    "radius": 8198,
+                    "polygon_points": [
+                        [
+                            [
+                                28.6862672666,
+                                50.1827648282
+                            ],
+                            [
+                                28.7982898226,
+                                50.1445967847
+                            ],
+                            [
+                                28.8464325535,
+                                50.1336650483
+                            ],
+                            [
+                                28.8314293833,
+                                50.1155930345
+                            ],
+                            [
+                                28.7903873944,
+                                50.1350672469
+                            ],
+                            [
+                                28.6783510163,
+                                50.1732378482
+                            ],
+                            [
+                                28.6301660192,
+                                50.1841652438
+                            ],
+                            [
+                                28.6451661829,
+                                50.2022378399
+                            ],
+                            [
+                                28.6862672666,
+                                50.1827648282
+                            ]
+                        ]
+                    ],
+                    "shape": 1
                 }
             ],
             "description": "",
@@ -1080,6 +1119,39 @@
             "data_source": 2
         },
         {
+            "area_id": 30288183,
+            "name": "Zhytomyr Airport",
+            "type": 10,
+            "shape": 2,
+            "lat": 50.267772,
+            "lng": 28.74346,
+            "radius": 852,
+            "level": 1,
+            "begin_at": 0,
+            "end_at": 0,
+            "country": "UA",
+            "city": "",
+            "polygon_points": null,
+            "color": "#1088F2",
+            "url": "",
+            "sub_areas": [
+                {
+                    "color": "#1088F2",
+                    "height": 0,
+                    "level": 1,
+                    "lat": 50.267772,
+                    "lng": 28.74346,
+                    "radius": 852,
+                    "polygon_points": null,
+                    "shape": 0
+                }
+            ],
+            "description": "",
+            "height": 0,
+            "address": "",
+            "data_source": 2
+        },
+        {
             "area_id": 30282371,
             "name": "Kiev Zhuliany International Airport",
             "type": 10,
@@ -1268,78 +1340,6 @@
             "data_source": 2
         },
         {
-            "area_id": 30288588,
-            "name": "Ozerne Air Base",
-            "type": 10,
-            "shape": 2,
-            "lat": 50.162203,
-            "lng": 28.738751,
-            "radius": 8198,
-            "level": 1,
-            "begin_at": 0,
-            "end_at": 0,
-            "country": "UA",
-            "city": "",
-            "polygon_points": null,
-            "color": "#1088F2",
-            "url": "",
-            "sub_areas": [
-                {
-                    "color": "#1088F2",
-                    "height": 0,
-                    "level": 1,
-                    "lat": 50.158894233675426,
-                    "lng": 28.738315945397307,
-                    "radius": 8198,
-                    "polygon_points": [
-                        [
-                            [
-                                28.6862672666,
-                                50.1827648282
-                            ],
-                            [
-                                28.7982898226,
-                                50.1445967847
-                            ],
-                            [
-                                28.8464325535,
-                                50.1336650483
-                            ],
-                            [
-                                28.8314293833,
-                                50.1155930345
-                            ],
-                            [
-                                28.7903873944,
-                                50.1350672469
-                            ],
-                            [
-                                28.6783510163,
-                                50.1732378482
-                            ],
-                            [
-                                28.6301660192,
-                                50.1841652438
-                            ],
-                            [
-                                28.6451661829,
-                                50.2022378399
-                            ],
-                            [
-                                28.6862672666,
-                                50.1827648282
-                            ]
-                        ]
-                    ],
-                    "shape": 1
-                }
-            ],
-            "description": "",
-            "height": 0,
-            "address": "",
-            "data_source": 2
-        },
-        {
             "area_id": 30284164,
             "name": "Boryspil International Airport",
             "type": 10,
@@ -1467,16 +1467,16 @@
     "status": "200",
     "header": {
         "content-type": "application/json; charset=utf-8",
-        "content-length": "13501",
+        "transfer-encoding": "chunked",
         "connection": "close",
-        "date": "Wed, 02 Mar 2022 23:00:08 GMT",
-        "x-request-id": "273f957d-3b6a-435d-8dcb-6dfd927ec290",
+        "date": "Thu, 03 Mar 2022 00:34:59 GMT",
+        "x-request-id": "1df52c35-49a6-41b9-8e3b-c259a4495408",
         "x-service-from": "geo_service",
         "x-service-loc": "",
         "access-control-allow-credentials": "true",
-        "via": "nw, 1.1 0173aeb09060ae0dd8c77e399d9e5634.cloudfront.net (CloudFront)",
+        "via": "nw, 1.1 baddfcb4f2a6876b4fcc03bcd62427ee.cloudfront.net (CloudFront)",
         "x-cache": "Miss from cloudfront",
-        "x-amz-cf-pop": "IAD79-C1",
-        "x-amz-cf-id": "h0CIKS1AclD1UzjRG9W9jFosruUrycvwHcwVB78_u0RK73ihIgWBaA=="
+        "x-amz-cf-pop": "IAD89-C1",
+        "x-amz-cf-id": "tZgGm0ug3_JaBD4XwLv7-hU9c0G--8nh1hqk7dQN1vpd2K7FkJAgrg=="
     }
 }

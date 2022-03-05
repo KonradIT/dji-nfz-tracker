@@ -21,14 +21,8 @@ jobs:
         run: pip install requests
       - name: Run script
         run: python track.py
-      - name: Commit new changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add zones/*
-          git commit -m "Update NFZ files" -a
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+      - uses: EndBug/add-and-commit@v7
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          author_name: GitHub Action
+          author_email: action@github.com
+          message: "New NFZ data"

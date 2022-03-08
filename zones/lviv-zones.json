@@ -121,7 +121,7 @@
     },
     {
         "area_id": 30267370,
-        "name": "Oddzia\u0142 Zewn\u0119trzny w Zamo\u015bciu",
+        "name": "Oddział Zewnętrzny w Zamościu",
         "type": 24,
         "shape": 2,
         "lat": 50.714956,
@@ -205,7 +205,7 @@
     },
     {
         "area_id": 30267386,
-        "name": "Oddzia\u0142 Zewn\u0119trzny w Moszcza\u0144cu",
+        "name": "Oddział Zewnętrzny w Moszczańcu",
         "type": 24,
         "shape": 2,
         "lat": 49.412185,
@@ -238,7 +238,7 @@
     },
     {
         "area_id": 30267387,
-        "name": "Oddzia\u0142 Zewn\u0119trzny w Jab\u0142onkach",
+        "name": "Oddział Zewnętrzny w Jabłonkach",
         "type": 24,
         "shape": 2,
         "lat": 49.266929,
@@ -271,7 +271,7 @@
     },
     {
         "area_id": 30267388,
-        "name": "Oddzia\u0142 Zewn\u0119trzny w \u015aredniej Wsi",
+        "name": "Oddział Zewnętrzny w Średniej Wsi",
         "type": 24,
         "shape": 2,
         "lat": 49.418537,
@@ -304,7 +304,7 @@
     },
     {
         "area_id": 30267416,
-        "name": "Areszt \u015aledczy Krasnystaw",
+        "name": "Areszt Śledczy Krasnystaw",
         "type": 24,
         "shape": 2,
         "lat": 50.986801,
@@ -337,7 +337,7 @@
     },
     {
         "area_id": 30267477,
-        "name": "Zak\u0142ad Karny w Che\u0142mie",
+        "name": "Zakład Karny w Chełmie",
         "type": 24,
         "shape": 2,
         "lat": 51.1399,
@@ -413,7 +413,7 @@
     },
     {
         "area_id": 30267478,
-        "name": "Zak\u0142ad Karny w Hrubieszowie",
+        "name": "Zakład Karny w Hrubieszowie",
         "type": 24,
         "shape": 2,
         "lat": 50.799292,
@@ -481,7 +481,7 @@
     },
     {
         "area_id": 30267481,
-        "name": "Zak\u0142ad Karny w Zamo\u015bciu",
+        "name": "Zakład Karny w Zamościu",
         "type": 24,
         "shape": 2,
         "lat": 50.729241,
@@ -581,7 +581,7 @@
     },
     {
         "area_id": 30267505,
-        "name": "Zak\u0142ad Karny w \u0141upkowie",
+        "name": "Zakład Karny w Łupkowie",
         "type": 24,
         "shape": 2,
         "lat": 49.247965,
@@ -637,7 +637,7 @@
     },
     {
         "area_id": 30267506,
-        "name": "Zak\u0142ad Karny w Medyce",
+        "name": "Zakład Karny w Medyce",
         "type": 24,
         "shape": 2,
         "lat": 49.796768,
@@ -693,7 +693,7 @@
     },
     {
         "area_id": 30267507,
-        "name": "Zak\u0142ad Karny w Przemy\u015blu",
+        "name": "Zakład Karny w Przemyślu",
         "type": 24,
         "shape": 2,
         "lat": 49.785076,
@@ -765,7 +765,7 @@
     },
     {
         "area_id": 30267508,
-        "name": "Zak\u0142ad Karny w Rzeszowie",
+        "name": "Zakład Karny w Rzeszowie",
         "type": 24,
         "shape": 2,
         "lat": 50.06147,
@@ -885,7 +885,7 @@
     },
     {
         "area_id": 30267509,
-        "name": "Zak\u0142ad Karny w Uhercach Mineralnych",
+        "name": "Zakład Karny w Uhercach Mineralnych",
         "type": 24,
         "shape": 2,
         "lat": 49.462136,
@@ -3022,7 +3022,7 @@
     },
     {
         "area_id": 30302751,
-        "name": "21 Brygada Strzelc\u00f3w Podhala\u0144skich",
+        "name": "21 Brygada Strzelców Podhalańskich",
         "type": 2,
         "shape": 2,
         "lat": 50.035246,
@@ -3142,7 +3142,7 @@
     },
     {
         "area_id": 30302752,
-        "name": "34 WOG Rzesz\u00f3w i Rejonowe Warsztaty Techniczne w Rzeszowie",
+        "name": "34 WOG Rzeszów i Rejonowe Warsztaty Techniczne w Rzeszowie",
         "type": 2,
         "shape": 2,
         "lat": 50.043113,
@@ -3226,7 +3226,7 @@
     },
     {
         "area_id": 30302753,
-        "name": "Wojskowa Komenda Transportu Lublin - Delegatura Rzesz\u00f3w",
+        "name": "Wojskowa Komenda Transportu Lublin - Delegatura Rzeszów",
         "type": 2,
         "shape": 2,
         "lat": 50.044119,
@@ -3346,7 +3346,7 @@
     },
     {
         "area_id": 30302754,
-        "name": "Wojskowa Komenda Uzupe\u0142nie\u0144",
+        "name": "Wojskowa Komenda Uzupełnień",
         "type": 2,
         "shape": 2,
         "lat": 50.04353,
@@ -3462,7 +3462,7 @@
     },
     {
         "area_id": 30302755,
-        "name": "Wojew\u00f3dzki Sztab Wojskowy",
+        "name": "Wojewódzki Sztab Wojskowy",
         "type": 2,
         "shape": 2,
         "lat": 50.037975,
@@ -3770,7 +3770,7 @@
     },
     {
         "area_id": 30302758,
-        "name": "Plac\u00f3wka 133. kompanii radiotechnicznej",
+        "name": "Placówka 133. kompanii radiotechnicznej",
         "type": 2,
         "shape": 2,
         "lat": 50.153738,
@@ -4398,7 +4398,7 @@
     },
     {
         "area_id": 30303250,
-        "name": "Plac\u00f3wka Stra\u017cy Granicznej w Stuposianach",
+        "name": "Placówka Straży Granicznej w Stuposianach",
         "type": 2,
         "shape": 2,
         "lat": 49.183726,
@@ -4510,7 +4510,7 @@
     },
     {
         "area_id": 30303251,
-        "name": "Stra\u017c Graniczna",
+        "name": "Straż Graniczna",
         "type": 2,
         "shape": 2,
         "lat": 49.324859,
@@ -4862,7 +4862,7 @@
     },
     {
         "area_id": 30303255,
-        "name": "Szaniec SZ12 \u201eLempert\u00f3wka\"",
+        "name": "Szaniec SZ12 „Lempertówka\"",
         "type": 2,
         "shape": 2,
         "lat": 49.778736,
@@ -5150,7 +5150,7 @@
     },
     {
         "area_id": 30303258,
-        "name": "1 i 2 Batalion Czo\u0142g\u00f3w JW 3233",
+        "name": "1 i 2 Batalion Czołgów JW 3233",
         "type": 2,
         "shape": 2,
         "lat": 49.818128,
@@ -5582,7 +5582,7 @@
     },
     {
         "area_id": 30303263,
-        "name": "Wojskowy Plac \u0106wicze\u0144",
+        "name": "Wojskowy Plac Ćwiczeń",
         "type": 2,
         "shape": 2,
         "lat": 50.003804,
@@ -6378,7 +6378,7 @@
     },
     {
         "area_id": 30303277,
-        "name": "2 Hrubieszowski Pu\u0142k Rozpoznawczy",
+        "name": "2 Hrubieszowski Pułk Rozpoznawczy",
         "type": 2,
         "shape": 2,
         "lat": 50.816704,
@@ -6586,7 +6586,7 @@
     },
     {
         "area_id": 30303279,
-        "name": "Nadbu\u017ca\u0144ski Oddzia\u0142 Stra\u017cy Granicznej",
+        "name": "Nadbużański Oddział Straży Granicznej",
         "type": 2,
         "shape": 2,
         "lat": 51.138636,
@@ -6862,7 +6862,7 @@
     },
     {
         "area_id": 30303288,
-        "name": "Plac\u00f3wka Stra\u017cy Granicznej w Skryhiczynie",
+        "name": "Placówka Straży Granicznej w Skryhiczynie",
         "type": 2,
         "shape": 2,
         "lat": 50.995186,
@@ -6918,7 +6918,7 @@
     },
     {
         "area_id": 30303361,
-        "name": "JW 3841 Rzesz\u00f3w OS Rajskie",
+        "name": "JW 3841 Rzeszów OS Rajskie",
         "type": 2,
         "shape": 2,
         "lat": 49.318202,
@@ -7074,7 +7074,7 @@
     },
     {
         "area_id": 30303363,
-        "name": "O\u015brodek Szkolenia G\u00f3rskiego",
+        "name": "Ośrodek Szkolenia Górskiego",
         "type": 2,
         "shape": 2,
         "lat": 49.58422,
@@ -7194,7 +7194,7 @@
     },
     {
         "area_id": 30303577,
-        "name": "Inspectoratul Teritorial al Poli\u021biei de Frontier\u0103 Sighetul Marma\u021biei",
+        "name": "Inspectoratul Teritorial al Poliției de Frontieră Sighetul Marmației",
         "type": 2,
         "shape": 2,
         "lat": 47.932492,
@@ -7354,7 +7354,7 @@
     },
     {
         "area_id": 30303733,
-        "name": "Vojensk\u00fd obvod Vala\u0161kovce",
+        "name": "Vojenský obvod Valaškovce",
         "type": 2,
         "shape": 2,
         "lat": 48.902012,

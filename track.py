@@ -46,7 +46,7 @@ params_ua_spots = {
 	"dnipro": (
 		("lng", "34.92684203119086"),
   		("lat", "48.29874265530242"),
-     	("search_radius", "153387")
+		("search_radius", "153387")
 	)
 }
 
@@ -54,7 +54,7 @@ params_ua_spots = {
 for spot in params_ua_spots:
 	params = params_ua_spots[spot] + params_base
 	response = s.get('https://www-api.dji.com/es/api/geo/areas', headers=headers, params=params)
-	with open("zones/%s-zones.json" % spot, "w+") as f:
+	with open("zones/%s-zones.json" % spot, "w+", encoding='utf8') as f:
 		r = response.json().get("areas")
 		x = sorted(r, key=lambda x: (x['area_id'], x['name']))
-		json.dump(x, f, indent=4)
+		json.dump(x, f, indent=4, ensure_ascii=False)

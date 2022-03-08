@@ -22,6 +22,8 @@ jobs:
         run: pip install requests
       - name: Run script
         run: python track.py
+      - name: Run script for autel
+        run: python track_autel.py
       - uses: EndBug/add-and-commit@v7
         with:
           author_name: GitHub Action

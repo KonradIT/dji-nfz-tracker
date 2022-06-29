@@ -63,14 +63,11 @@ def as_geojson(spot) -> Optional[List[Tuple[int, int]]]:
 for spot in params_ua_spots:
 	params = params_ua_spots[spot] + params_base
 	response = s.get('https://www-api.dji.com/es/api/geo/areas', headers=headers, params=params)
-	with open("zones/%s-zones.json" % spot, "w+", encoding='utf8') as f:
-		r = response.json().get("areas")
-		x = sorted(r, key=lambda x: (x['area_id'], x['name']))
-		json.dump(x, f, indent=4, ensure_ascii=False)
-
 	r = response.json().get("areas")
-	for zone in r:
-		print(zone.get("sub_areas")[0])
+	x = sorted(r, key=lambda x: (x['area_id'], x['name']))
+	with open("zones/%s-zones.json" % spot, "w+", encoding='utf8') as f:
+		json.dump(x, f, indent=4, ensure_ascii=False)
+	for zone in x:
 		result = as_geojson(zone.get("sub_areas")[0])
 		if result != None:
 			gj.append(result)

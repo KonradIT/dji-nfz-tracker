@@ -1,8 +1,12 @@
+from typing import Optional, Tuple, List
 import requests
 import json
+from gjson import GeoJSONHelper
 
 s = requests.Session()
 s.get("https://www.dji.com/es/flysafe/geo-map")
+
+gj = GeoJSONHelper()
 
 headers = {
 	'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0',
@@ -50,6 +54,11 @@ params_ua_spots = {
 	)
 }
 
+def as_geojson(spot) -> Optional[List[Tuple[int, int]]]:
+    if  spot.get("polygon_points") == None:
+        return None
+    p = spot.get("polygon_points")[0]
+    return [[(x[0], x[1]) for x in p]]
 
 for spot in params_ua_spots:
 	params = params_ua_spots[spot] + params_base
@@ -58,3 +67,12 @@ for spot in params_ua_spots:
 		r = response.json().get("areas")
 		x = sorted(r, key=lambda x: (x['area_id'], x['name']))
 		json.dump(x, f, indent=4, ensure_ascii=False)
+
+	r = response.json().get("areas")
+	for zone in r:
+		print(zone.get("sub_areas")[0])
+		result = as_geojson(zone.get("sub_areas")[0])
+		if result != None:
+			gj.append(result)
+	with open("zones/all-ukraine-zones.geojson", "w+", encoding="utf-8") as geofile:
+		json.dump(gj.make(), geofile, indent=4, ensure_ascii=False)

@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.7"
       - name: Install requirements
-        run: pip install requests
+        run: pip install requests geojson
       - name: Run script
         run: python track.py
       - name: Run script for autel

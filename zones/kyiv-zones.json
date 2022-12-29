@@ -1457,5 +1457,104 @@
         "height": 0,
         "address": "",
         "data_source": 2
+    },
+    {
+        "area_id": 60012640,
+        "name": "Boryspil International Airport",
+        "type": 99,
+        "shape": 2,
+        "lat": 50.340086,
+        "lng": 30.894957,
+        "radius": 50000,
+        "level": 2,
+        "begin_at": 0,
+        "end_at": 0,
+        "country": "UA",
+        "city": "",
+        "polygon_points": null,
+        "color": "#DE4329",
+        "url": "",
+        "sub_areas": [
+            {
+                "color": "#979797",
+                "height": 500,
+                "level": 2,
+                "lat": 50.340086,
+                "lng": 30.894957,
+                "radius": 50000,
+                "polygon_points": null,
+                "shape": 0
+            }
+        ],
+        "description": "",
+        "height": 500,
+        "address": "",
+        "data_source": 2
+    },
+    {
+        "area_id": 60013396,
+        "name": "BORYSPIL INTL",
+        "type": 99,
+        "shape": 2,
+        "lat": 50.33949167,
+        "lng": 30.89284444,
+        "radius": 50000,
+        "level": 2,
+        "begin_at": 0,
+        "end_at": 0,
+        "country": "UA",
+        "city": "",
+        "polygon_points": null,
+        "color": "#DE4329",
+        "url": "",
+        "sub_areas": [
+            {
+                "color": "#979797",
+                "height": 500,
+                "level": 2,
+                "lat": 50.33949167,
+                "lng": 30.89284444,
+                "radius": 50000,
+                "polygon_points": null,
+                "shape": 0
+            }
+        ],
+        "description": "",
+        "height": 500,
+        "address": "",
+        "data_source": 2
+    },
+    {
+        "area_id": 60013474,
+        "name": "Kiev Zhuliany International Airport",
+        "type": 99,
+        "shape": 2,
+        "lat": 50.401656,
+        "lng": 30.451092,
+        "radius": 50000,
+        "level": 2,
+        "begin_at": 0,
+        "end_at": 0,
+        "country": "UA",
+        "city": "",
+        "polygon_points": null,
+        "color": "#DE4329",
+        "url": "",
+        "sub_areas": [
+            {
+                "color": "#979797",
+                "height": 500,
+                "level": 2,
+                "lat": 50.401656,
+                "lng": 30.451092,
+                "radius": 50000,
+                "polygon_points": null,
+                "shape": 0
+            }
+        ],
+        "description": "",
+        "height": 500,
+        "address": "",
+        "data_source": 2
     }
 ]

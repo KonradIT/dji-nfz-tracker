@@ -7717,5 +7717,203 @@
         "height": 0,
         "address": "",
         "data_source": 2
+    },
+    {
+        "area_id": 50005625,
+        "name": "RZESZOW - JASIONKA",
+        "type": 99,
+        "shape": 2,
+        "lat": 50.109958,
+        "lng": 22.019,
+        "radius": 50000,
+        "level": 2,
+        "begin_at": 0,
+        "end_at": 0,
+        "country": "PL",
+        "city": "RZESZOW",
+        "polygon_points": null,
+        "color": "#DE4329",
+        "url": "",
+        "sub_areas": [
+            {
+                "color": "#979797",
+                "height": 500,
+                "level": 2,
+                "lat": 50.109958,
+                "lng": 22.019,
+                "radius": 50000,
+                "polygon_points": null,
+                "shape": 0
+            }
+        ],
+        "description": "",
+        "height": 500,
+        "address": "",
+        "data_source": 2
+    },
+    {
+        "area_id": 60011093,
+        "name": "Rivne International Airport",
+        "type": 99,
+        "shape": 2,
+        "lat": 50.607893,
+        "lng": 26.14106,
+        "radius": 50000,
+        "level": 2,
+        "begin_at": 0,
+        "end_at": 0,
+        "country": "UA",
+        "city": "",
+        "polygon_points": null,
+        "color": "#DE4329",
+        "url": "",
+        "sub_areas": [
+            {
+                "color": "#979797",
+                "height": 500,
+                "level": 2,
+                "lat": 50.607893,
+                "lng": 26.14106,
+                "radius": 50000,
+                "polygon_points": null,
+                "shape": 0
+            }
+        ],
+        "description": "",
+        "height": 500,
+        "address": "",
+        "data_source": 2
+    },
+    {
+        "area_id": 60011430,
+        "name": "Lviv International Airport",
+        "type": 99,
+        "shape": 2,
+        "lat": 49.80989,
+        "lng": 23.958611,
+        "radius": 50000,
+        "level": 2,
+        "begin_at": 0,
+        "end_at": 0,
+        "country": "UA",
+        "city": "",
+        "polygon_points": null,
+        "color": "#DE4329",
+        "url": "",
+        "sub_areas": [
+            {
+                "color": "#979797",
+                "height": 500,
+                "level": 2,
+                "lat": 49.80989,
+                "lng": 23.958611,
+                "radius": 50000,
+                "polygon_points": null,
+                "shape": 0
+            }
+        ],
+        "description": "",
+        "height": 500,
+        "address": "",
+        "data_source": 2
+    },
+    {
+        "area_id": 60012361,
+        "name": "CHERNIVTSI INTL",
+        "type": 99,
+        "shape": 2,
+        "lat": 48.25944444,
+        "lng": 25.98,
+        "radius": 50000,
+        "level": 2,
+        "begin_at": 0,
+        "end_at": 0,
+        "country": "UA",
+        "city": "",
+        "polygon_points": null,
+        "color": "#DE4329",
+        "url": "",
+        "sub_areas": [
+            {
+                "color": "#979797",
+                "height": 500,
+                "level": 2,
+                "lat": 48.25944444,
+                "lng": 25.98,
+                "radius": 50000,
+                "polygon_points": null,
+                "shape": 0
+            }
+        ],
+        "description": "",
+        "height": 500,
+        "address": "",
+        "data_source": 2
+    },
+    {
+        "area_id": 60012586,
+        "name": "Uzhhorod International Airport",
+        "type": 99,
+        "shape": 2,
+        "lat": 48.634142,
+        "lng": 22.262996,
+        "radius": 50000,
+        "level": 2,
+        "begin_at": 0,
+        "end_at": 0,
+        "country": "UA",
+        "city": "",
+        "polygon_points": null,
+        "color": "#DE4329",
+        "url": "",
+        "sub_areas": [
+            {
+                "color": "#979797",
+                "height": 500,
+                "level": 2,
+                "lat": 48.634142,
+                "lng": 22.262996,
+                "radius": 50000,
+                "polygon_points": null,
+                "shape": 0
+            }
+        ],
+        "description": "",
+        "height": 500,
+        "address": "",
+        "data_source": 2
+    },
+    {
+        "area_id": 60013661,
+        "name": "Ivano-Frankivsk International Airport",
+        "type": 99,
+        "shape": 2,
+        "lat": 48.887218,
+        "lng": 24.69095,
+        "radius": 50000,
+        "level": 2,
+        "begin_at": 0,
+        "end_at": 0,
+        "country": "UA",
+        "city": "",
+        "polygon_points": null,
+        "color": "#DE4329",
+        "url": "",
+        "sub_areas": [
+            {
+                "color": "#979797",
+                "height": 500,
+                "level": 2,
+                "lat": 48.887218,
+                "lng": 24.69095,
+                "radius": 50000,
+                "polygon_points": null,
+                "shape": 0
+            }
+        ],
+        "description": "",
+        "height": 500,
+        "address": "",
+        "data_source": 2
     }
 ]
